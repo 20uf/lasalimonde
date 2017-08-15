@@ -4,7 +4,7 @@ import VueResource from 'vue-resource';
 
 import App from './App.vue'
 import { routes } from './routes';
-import app from './app/app';
+import Store from './Store/store';
 
 Vue.use(VueRouter);
 Vue.use(VueResource);

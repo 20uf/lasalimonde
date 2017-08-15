@@ -1,6 +1,6 @@
 <template>
     <div>
-        rooms
+        Bedrooms
     </div>
 </template>
 

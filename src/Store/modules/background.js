@@ -11,13 +11,13 @@ const mutations = {
 };
 
 const actions = {
-    initBedrooms: ({commit}) => {
+    initBackgrounds: ({commit}) => {
         commit('SET_BACKGROUNDS', images);
     }
 };
 
 const getters = {
-    bedrooms: state => {
+    backgrounds: state => {
         return state.images;
     }
 };

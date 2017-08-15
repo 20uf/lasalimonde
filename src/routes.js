@@ -1,10 +1,9 @@
 import Home from './components/Home.vue';
-import Portfolio from './components/portfolio/Portfolio.vue';
-import BedAndBreakfast from './components/BedAndBreakfast/index.vue';
+import Bedrooms from './components/Bedrooms/index.vue';
 import Gallery from './components/Gallery/index.vue'
 
 export const routes = [
-    { path: '/', component: Home },
-    { path: '/la-chambre-dhôtes', component: BedAndBreakfast },
-    { path: '/Gallerie', component: Gallery }
+    { path: '/', component: Home, name: 'home' },
+    { path: '/la-chambre-dhôtes', component: Bedrooms, name: 'bedrooms' },
+    { path: '/Gallerie', component: Gallery, name: 'gallery' }
 ];
